@@ -43,7 +43,7 @@ public class Currency extends AppCompatActivity {
         button = (Button) findViewById(R.id.button);
 
         //Adding Functionality
-        String[] dropDownList = {"USD", "INR","EUR","NZD"};
+        String[] dropDownList = {"USD", "INR","EUR","NZD","AED"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, dropDownList);
         convertToDropdown.setAdapter(adapter);
         convertFromDropdown.setAdapter(adapter);
